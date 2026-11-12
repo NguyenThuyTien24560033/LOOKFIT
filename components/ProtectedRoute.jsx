@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { createClient } from '@/lib/supabase/client'
+import { createClient } from '@/lib/API/client'
 
 // Remembers a passed check for the lifetime of the page so switching tabs renders the next
 // page straight away. The check still re-runs on every mount and redirects if it fails.

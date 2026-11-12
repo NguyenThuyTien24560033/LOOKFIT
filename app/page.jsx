@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import HeroIllustration from '@/components/HeroIllustration'
 import { ArrowRight, Check, ChevronDown, CircleHelp, Heart, Menu, Plus, Search, SlidersHorizontal, Sparkles, X } from 'lucide-react'
-import { createClient } from '@/lib/supabase/client'
+import { createClient } from '@/lib/API/client'
 import styles from './page.module.css'
 
 const initialItems = [
