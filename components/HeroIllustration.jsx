@@ -1,0 +1,3 @@
+export default function HeroIllustration() {
+  return <div className="hero-illustration" aria-label="Blue dress illustration"><div className="hero-illustration__orbits" aria-hidden="true"><span /><span /><span /><i /><i /><i /><i /></div><div className="hero-illustration__circle" aria-hidden="true" /><img src="/fashion-flatlay-clean.png" alt="Editorial flat lay outfit with a blouse and blue pleated skirt" className="hero-illustration__dress" /><div className="hero-illustration__mood">Today&apos;s mood<strong>Effortlessly polished</strong></div><div className="hero-illustration__match">LOOK 08&nbsp; · &nbsp;92% match</div></div>
+}
