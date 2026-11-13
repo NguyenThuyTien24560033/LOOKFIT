@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 88, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/NGUYEN%20KIM%20THU/OneDrive/T%C3%A0i%20li%E1%BB%87u/look-fit-web123/proxy.ts"],"sourcesContent":["import { updateSession } from '@/lib/API/proxy'\r\nimport type { NextRequest } from 'next/server'\r\n\r\nexport async function proxy(request: NextRequest) {\r\n  return updateSession(request)\r\n}\r\n\r\nexport const config = {\r\n  matcher: ['/((?!_next/static|_next/image|favicon.ico|.*\\\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)'],\r\n}\r\n"],"names":["proxy","request","updateSession","config","matcher"],"mappings":";;;;;;;;;;;;AAGO,eAAeA,MAAMC,OAAoB;IAC9C,OAAOC,cAAcD;AACvB;AAEO,MAAME,SAAS;IACpBC,SAAS;QAAC;KAAoF;AAChG"}}]
-}
